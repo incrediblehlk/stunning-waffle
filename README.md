@@ -1,5 +1,5 @@
 # stunning-waffle
-Udacity - Front-End Web Development course
+Udacity - Front-End Web Development course (HTML, CSS, JavaScript)
 
 - Course taken from January-April 2018
 - Saving interesting codes here to play with later
