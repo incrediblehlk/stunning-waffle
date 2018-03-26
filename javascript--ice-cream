@@ -1,0 +1,75 @@
+/*
+ * Programming Quiz: Ice Cream (3-6)
+ *
+ * Write a single if statement that logs out the message:
+ * 
+ * "I'd like two scoops of __________ ice cream in a __________ with __________."
+ * 
+ * ...only if:
+ *   - flavor is "vanilla" or "chocolate"
+ *   - vessel is "cone" or "bowl"
+ *   - toppings is "sprinkles" or "peanuts"
+ *
+ * We're only testing the if statement and your boolean operators. 
+ * It's okay if the output string doesn't match exactly.
+ */
+
+// change the values of `flavor`, `vessel`, and `toppings` to test your code
+var flavor = "strawberry";
+var vessel = "cone";
+var toppings = "cookies";
+
+
+if ((flavor === "vanilla" || flavor === "chocolate") && (vessel === "cone" || vessel === "bowl") && (toppings === "sprinkles" || toppings === "peanuts")) {
+ 
+
+// EXTRA CODE - BUILDING ON THE ORIGINAL PROMPT TO GIVE REASONS FOR BAD ORDERS
+
+// the or operator ( || ) doesn't work here - because if it is one but not the other it falsely triggers still, hence "&&"
+// combining to something like flavor != "vanilla" && "chocolate" also didn't work
+
+else if (flavor != "vanilla" && flavor != "chocolate") {
+    console.log("Sorry, that flavor is not available.")
+}
+else if (vessel != "cone" && vessel != "bowl") {
+    console.log("Sorry, we only have cones and bowls.")
+}
+else if (toppings != "sprinkles" && toppings != "peanuts") {
+    console.log("Sorry, we only have sprinkles and peanuts.")
+}
+
+// just in casies!
+else {
+    console.log("Error - You should not be seeing this.")
+}
+
+
+// ---------------
+
+// NOTES
+
+
+// this appeared to work at first, until all variables were acceptable variables, then it triggered the error that they shouldn't see.
+// if (flavor === ("vanilla" || "chocolate") && vessel === ("cone" || "bowl") && toppings === ("sprinkles" || "peanuts")) {
+    console.log("I'd like two scoops of " + flavor + " ice cream in a " + vessel + " with " + toppings + ".")
+}
+
+// ------
+
+// WHY DOES THE BELOW CODE ALLOW THE INCORRECT TOPPINGS TO PRINT TO THE CONSOLE? BUT PARENTHESES FIX IT?
+
+// if (flavor === "vanilla" || "chocolate" && vessel === "cone" || "bowl" && toppings === "sprinkles" || "peanuts") {
+    //    console.log("I'd like two scoops of " + flavor + " ice cream in a " + vessel + " with " + toppings + ".")
+//}
+// else if (flavor != ("vanilla" || "chocolate")) {
+//    console.log("Sorry, that flavor is not available.")
+//}
+// else if (vessel != "cone" || "bowl") {
+//    console.log("Sorry, we only have cones and bowls.")
+//}
+// else if (toppings != "sprinkles" || "peanuts") {
+//    console.log("Sorry, we only have sprinkles and peanuts.")
+//}
+// else {
+//    console.log("Error - You should not be seeing this.")
+//}
