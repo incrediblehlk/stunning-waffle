@@ -1,0 +1,35 @@
+/*
+ * Programming Quiz: JuliaJames (4-1)
+ */
+
+var x = 1;
+
+while (x <= 20) {
+    // check divisibility & print
+    x % 3 === 0 ? (x % 5 === 0 ? (console.log("JuliaJames")) : (console.log("Julia"))) : (x % 5 === 0 ? (console.log("James")) : (console.log(x)));
+    // add 1
+    x += 1;
+}
+
+
+
+// -------------
+// NOTES
+// -------------
+
+// Here is my take on the classic version using ternary operators
+// for x < 100
+// print Fizz if divisible by 3 only
+// print Buzz if divisible by 5 only
+// print FizzBuzz if divisible by both
+// print just the number if divisible by neither
+
+// I added to it where it will also print the number before Fizz/Buzz/FizzBuzz
+
+// var x = 1;
+
+//while (x <= 100) {
+    // check divisibility
+//    x % 3 === 0 ? (x % 5 === 0 ? (console.log(x + " = FizzBuzz")) : (console.log(x + " = Fizz"))) : (x % 5 === 0 ? //(console.log(x + " = Buzz")) : (console.log(x)));
+//    x += 1;
+//}
