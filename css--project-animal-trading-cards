@@ -1,0 +1,60 @@
+/* css for the animal trading cards html */
+/* this does the bare bones and just a bit more of what the prompt wanted */
+/* plan to continue playing with it later */
+
+/* italicized test for the animal's interesting fact */
+
+p.italicize {
+  font-style: italic;
+}
+
+/* bolded labels for the animal's list items (e.g. 'Habitat') */
+
+span.label {
+  font-weight: bold;
+}
+
+/* no dots for the animal's list items */
+
+ul {
+  list-style-type: none;
+}
+
+/* border around the animal's name, image, and information */
+
+div.nameimageinfo {
+  background: linear-gradient(aliceblue, slateblue);
+  width: 300px;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 20px;
+  box-shadow: 20px 20px 15px #222;
+}
+
+/* border around the animal's information */
+
+div.infoonly {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  background-color: aliceblue;
+  width: 280px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+/* spacing between the animal's name, image, and information (you will need to use the property "padding") */
+
+h3 {
+  padding: 5px;
+}
+
+img {
+  padding: 5px;
+}
+
+/* Just for fun - extra style things */
+
+body {
+  background-color: gray;
+}
