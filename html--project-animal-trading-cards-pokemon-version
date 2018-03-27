@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>Animal Trading Cards</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css">
+</head>
+<body>
+	<table class = "organizecards">
+		<tr>
+			<td class>
+	<!--BEGIN PIKACHU-->
+		<div class = "nameimageinfo lightning">
+			<!-- your favorite animal's name goes here -->
+			<table class = "nameheaders">
+				<tr>
+					<td class = "basic" colspan = "3">Basic Pokemon</td>
+				</tr>
+				<tr>
+					<td class = "nameofanimal">Pikachu</td>
+					<td class = "hp">60 HP</td>
+					<td class = "typesign"> * </td>
+				</tr>
+			</table>
+			<!-- your favorite animal's image goes here -->
+			<img src = "placeholder.png" alt = "name-of-your-animal">
+			<p class = "description">Mouse Pokemon. Length 1'4", Weight 13 lbs.</p>
+			<div class = "infoonly">
+				<!-- your favorite animal's interesting fact goes here -->
+				<ul>
+					<!-- your favorite animal's list items go here -->
+					<table class = "stats">
+						<tr>
+							<td class = "energy">*</td>
+							<td><span class = "label">Growl</span> <span class = "labeltext">If the Defending Pokemon attacks Pikachu during your opponent's next turn, any damage done by the attack is reduced by 10.</span></td>
+							<td class = "damage"> </td>
+						</tr>
+					</table>
+					<hr>
+					<table class = "stats">
+						<tr>
+							<td class = "energy">* *</td>
+							<td><span class = "label">Thundershock</span> <span class = "labeltext">Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</span></td>
+							<td class = "damage">20</td>
+						</tr>
+					</table>
+					<hr>
+					<table class = "costs">
+						<tr class = "costheaders">
+							<td>weakness</td>
+							<td>resistance</td>
+							<td>retreat cost</td>
+						</tr>
+						<tr class = "costicons">
+							<td>*</td>
+							<td></td>
+							<td>*</td>
+						</tr>
+					</table>
+				<!-- your favorite animal's description goes here -->
+				<p class = "italicize">When several of these Pokemon gather, their electricity could build and cause lightning storms.</p>
+			</div>
+		</div>
+		<!-- END PIKACHU -->
+			</td>
+			<td>
+
+<!-- BEGIN BULBASAUR -->
+		<div class = "nameimageinfo grass">
+			<!-- your favorite animal's name goes here -->
+			<table class = "nameheaders">
+				<tr>
+					<td class = "basic" colspan = "3">Basic Pokemon</td>
+				</tr>
+				<tr>
+					<td class = "nameofanimal">Bulbasaur</td>
+					<td class = "hp">40 HP</td>
+					<td class = "typesign"> * </td>
+				</tr>
+			</table>
+			<!-- your favorite animal's image goes here -->
+			<img src = "placeholder.png" alt = "name-of-your-animal">
+			<p class = "description">Seed Pokemon. Length 3'4", Weight 15 lbs.</p>
+			<div class = "infoonly">
+				<!-- your favorite animal's interesting fact goes here -->
+				<ul>
+					<!-- your favorite animal's list items go here -->
+					<table class = "stats">
+						<tr>
+							<td class = "energy">* *</td>
+							<td><span class = "label">Leech Seed</span> <span class = "labeltext">Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.</span></td>
+							<td class = "damage">20</td>
+						</tr>
+					</table>
+					<hr>
+					<table class = "costs">
+						<tr class = "costheaders">
+							<td>weakness</td>
+							<td>resistance</td>
+							<td>retreat cost</td>
+						</tr>
+						<tr class = "costicons">
+							<td>*</td>
+							<td></td>
+							<td>*</td>
+						</tr>
+					</table>
+				<!-- your favorite animal's description goes here -->
+				<p class = "italicize">A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokemon.</p>
+			</div>
+		</div>
+		<!-- END BULBASAUR -->
+	</td>
+</tr>
+<tr>
+	<td class>
+		<!-- BEGIN CHARMANDER -->
+				<div class = "nameimageinfo fire">
+					<!-- your favorite animal's name goes here -->
+					<table class = "nameheaders">
+						<tr>
+							<td class = "basic" colspan = "3">Basic Pokemon</td>
+						</tr>
+						<tr>
+							<td class = "nameofanimal">Charmander</td>
+							<td class = "hp">50 HP</td>
+							<td class = "typesign"> * </td>
+						</tr>
+					</table>
+					<!-- your favorite animal's image goes here -->
+					<img src = "placeholder.png" alt = "name-of-your-animal">
+					<p class = "description">Lizard Pokemon. Length 2'0", Weight 19 lbs.</p>
+					<div class = "infoonly">
+						<!-- your favorite animal's interesting fact goes here -->
+						<ul>
+							<!-- your favorite animal's list items go here -->
+							<table class = "stats">
+								<tr>
+									<td class = "energy">*</td>
+									<td><span class = "label">Scratch</span></td>
+									<td class = "damage">10</td>
+								</tr>
+							</table>
+							<hr>
+							<table class = "stats">
+								<tr>
+									<td class = "energy">* *</td>
+									<td><span class = "label">Ember</span> <span class = "labeltext">Discard 1 Energy card attached to Charmander in order to use this attack.</span></td>
+									<td class = "damage">30</td>
+								</tr>
+							</table>
+							<hr>
+							<table class = "costs">
+								<tr class = "costheaders">
+									<td>weakness</td>
+									<td>resistance</td>
+									<td>retreat cost</td>
+								</tr>
+								<tr class = "costicons">
+									<td>*</td>
+									<td></td>
+									<td>*</td>
+								</tr>
+							</table>
+						<!-- your favorite animal's description goes here -->
+						<p class = "italicize">Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.</p>
+					</div>
+				</div>
+				<!-- END CHARMANDER -->
+	</td>
+	<td class>
+		<!-- BEGIN SQUIRTLE -->
+				<div class = "nameimageinfo water">
+					<!-- your favorite animal's name goes here -->
+					<table class = "nameheaders">
+						<tr>
+							<td class = "basic" colspan = "3">Basic Pokemon</td>
+						</tr>
+						<tr>
+							<td class = "nameofanimal">Squirtle</td>
+							<td class = "hp">40 HP</td>
+							<td class = "typesign"> * </td>
+						</tr>
+					</table>
+					<!-- your favorite animal's image goes here -->
+					<img src = "placeholder.png" alt = "name-of-your-animal">
+					<p class = "description">Tiny Turtle Pokemon. Length 1'8", Weight 20 lbs.</p>
+					<div class = "infoonly">
+						<!-- your favorite animal's interesting fact goes here -->
+						<ul>
+							<!-- your favorite animal's list items go here -->
+							<table class = "stats">
+								<tr>
+									<td class = "energy">*</td>
+									<td><span class = "label">Bubble</span>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</td>
+									<td class = "damage">10</td>
+								</tr>
+							</table>
+							<hr>
+							<table class = "stats">
+								<tr>
+									<td class = "energy">* *</td>
+									<td><span class = "label">Withdraw</span> <span class = "labeltext">Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn.</span></td>
+									<td class = "damage">30</td>
+								</tr>
+							</table>
+							<hr>
+							<table class = "costs">
+								<tr class = "costheaders">
+									<td>weakness</td>
+									<td>resistance</td>
+									<td>retreat cost</td>
+								</tr>
+								<tr class = "costicons">
+									<td>*</td>
+									<td></td>
+									<td>*</td>
+								</tr>
+							</table>
+						<!-- your favorite animal's description goes here -->
+						<p class = "italicize">After birth, its back swells and hardens into a shell. It powerfully sprays from its mouth.</p>
+					</div>
+				</div>
+				<!-- END SQUIRTLE -->
+	</td>
+</tr>
+</table>
+</body>
+</html>
