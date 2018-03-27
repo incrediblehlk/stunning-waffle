@@ -1,0 +1,33 @@
+<! Pair with "css--project-animal-trading-card". Note the names and match the stylesheet linkrel>
+<! Did not fill out animal name or information for this part, keeping it as is to play with later
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>Animal Trading Cards</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css">
+</head>
+<body>
+	<div class = "nameimageinfo">
+		<!-- your favorite animal's name goes here -->
+		<h3>Animal's name</h3>
+		<!-- your favorite animal's image goes here -->
+		<img src = "placeholder.png" alt = "name-of-your-animal">
+		<div class = "infoonly">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p class = "italicize">Write an interesting fact about your favorite animal...</p>
+			<ul>
+				<!-- your favorite animal's list items go here -->
+				<li><span class = "label">Label</span>: Item #1</li>
+				<li><span class = "label">Label</span>: Item #2</li>
+				<li><span class = "label">Label</span>: Item #3</li>
+				<li><span class = "label">Label</span>: Item #4</li>
+			</ul>
+			<!-- your favorite animal's description goes here -->
+			<p>Write a brief description about your favorite animal...</p>
+		</div>
+	</div>
+</body>
+</html>
