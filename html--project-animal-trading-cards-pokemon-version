@@ -192,7 +192,7 @@
 							<table class = "stats">
 								<tr>
 									<td class = "energy">*</td>
-									<td><span class = "label">Bubble</span>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</td>
+									<td><span class = "label">Bubble</span> <span class = "labeltext">Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</span></td>
 									<td class = "damage">10</td>
 								</tr>
 							</table>
