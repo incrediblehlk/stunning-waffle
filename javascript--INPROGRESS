@@ -7,35 +7,33 @@
 
 var facebookProfile = {
   name: "HK",
-  friends: 16595959,
+  friends: 19,
   messages: ["So yeah", "How about that", "Look at this", "Here is another"],
   postMessage: function addMessage(message) {
-    facebookProfile.messages.push(message);
-    return ("Posted: " + message);
+    this.messages.push(message);
   },
   deleteMessage: function removeMessage(index) {
-      facebookProfile.messages.splice(index);
-      return ("Removed a post");
+      this.messages.splice(index,1);
   },
   addFriend: function newFriend() {
-      facebookProfile.friends++;
-      return ("Added a friend");
+      this.friends++;
   },
   removeFriend: function byeFriend() {
-      facebookProfile.friends--;
-      return ("Removed a friend");
+      this.friends--;
   }
 };
 
 
 // testing area
 
-console.log(facebookProfile + "\n");
+console.log(facebookProfile);
 console.log(facebookProfile.postMessage("What up"));
-console.log(facebookProfile);
 console.log(facebookProfile.deleteMessage(2));
-console.log(facebookProfile);
 console.log(facebookProfile.addFriend);
-console.log(facebookProfile);
 console.log(facebookProfile.removeFriend);
 console.log(facebookProfile);
+
+// notes
+
+// "this" can be used instead of something like "facebookProfile.messages" --> "this.messages"
+// can log facebookProfile after every command
